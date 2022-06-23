@@ -5,8 +5,6 @@
       <meta charset="utf-8"/>
       <meta name="viewport" content="width=device-width, initial-scale=1">
         <style>
-          /*Fuentes de letra*/
-/*Letra en cursiva*/
 @font-face{
     font-family:Austria;
     src: url(fuentes/Austria.ttf);
@@ -19,7 +17,6 @@
   font-family: f2;
   src: url(fuentes/PressStart2P-Regular.ttf);
 }
-/*Fuentes de letra ~ Fin*/
 
         </style>
     </head>
@@ -165,7 +162,6 @@
         
     </body>
     <script>
-  //Boton deplegable
 function boton() {
   document.getElementById("desplegable").classList.toggle("ver");
 }
